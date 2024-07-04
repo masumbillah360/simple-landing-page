@@ -1,4 +1,5 @@
 import Hero from "../components/sections/Hero";
+import Partners from "../components/sections/Partners";
 import Navbar from "../components/shared/Navbar";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="max-w-7xl mx-auto">
         <Navbar />
         <Hero />
+        <Partners />
       </div>
     </main>
   );
