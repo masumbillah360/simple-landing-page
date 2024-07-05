@@ -3,6 +3,7 @@ import Navbar from "../components/shared/Navbar";
 import Partners from "../components/sections/Partners";
 import Features from "../components/sections/Features";
 import FeaturesTwo from "../components/sections/FeatureTwo";
+import { Pricing } from "../components/sections/Pricing";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Partners />
         <Features />
         <FeaturesTwo />
+        <Pricing />
       </div>
     </main>
   );
