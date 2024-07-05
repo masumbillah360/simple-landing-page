@@ -1,7 +1,8 @@
-import Features from "../components/sections/Features";
 import Hero from "../components/sections/Hero";
-import Partners from "../components/sections/Partners";
 import Navbar from "../components/shared/Navbar";
+import Partners from "../components/sections/Partners";
+import Features from "../components/sections/Features";
+import FeaturesTwo from "../components/sections/FeatureTwo";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero />
         <Partners />
         <Features />
+        <FeaturesTwo />
       </div>
     </main>
   );

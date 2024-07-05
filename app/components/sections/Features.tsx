@@ -1,8 +1,8 @@
 "use client";
 
-import { FileUpload, Plagiarism, PlagiarismRounded, PlagiarismTwoTone } from "@mui/icons-material";
 import { motion, useScroll } from "framer-motion";
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { FileUpload, Plagiarism } from "@mui/icons-material";
 
 const Features = () => {
   const { scrollYProgress: completionProgress } = useScroll();
@@ -88,7 +88,7 @@ const Features = () => {
           </button>
           <button className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-600 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
             <FileUpload className="mr-2" />
-           Upload Text File
+            Upload Text File
           </button>
         </p>
       </motion.div>
