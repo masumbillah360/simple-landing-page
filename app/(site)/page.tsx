@@ -5,6 +5,10 @@ import Features from "../components/sections/Features";
 import FeaturesTwo from "../components/sections/FeatureTwo";
 import { Pricing } from "../components/sections/Pricing";
 import { Team } from "../components/sections/Team";
+import { Statistic } from "../components/sections/Stats";
+import { Blog } from "../components/sections/Blogs";
+import { Faq } from "../components/sections/FAQ";
+import { Footer } from "../components/sections/Footer";
 
 export default function Home() {
   return (
@@ -15,8 +19,12 @@ export default function Home() {
         <Partners />
         <Features />
         <FeaturesTwo />
+        <Statistic />
         <Pricing />
         <Team />
+        <Blog />
+        <Faq />
+        <Footer />
       </div>
     </main>
   );

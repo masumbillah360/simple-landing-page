@@ -65,9 +65,9 @@ export const Pricing = () => {
             </p>
           </div>
         </div>
-        <div className="relative flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow border-deep-purple-accent-400">
+        <div className="relative flex flex-col justify-between p-8 transition-shadow duration-300 bg-blue-200 border rounded shadow-sm sm:items-center hover:shadow border-deep-purple-accent-400">
           <div className="absolute inset-x-0 top-0 flex justify-center -mt-3">
-            <div className="inline-block px-3 py-1 text-xs font-medium tracking-wider text-white uppercase rounded bg-deep-purple-accent-400">
+            <div className="inline-block px-3 py-1 text-xs font-medium tracking-wider text-white uppercase rounded bg-blue-600">
               Most Popular
             </div>
           </div>
@@ -86,7 +86,7 @@ export const Pricing = () => {
           <div>
             <a
               href="/"
-              className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-black transition duration-200 rounded shadow-md bg-white hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
             >
               Buy Pro
             </a>
